@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "300719957667",
+    "firebase_url": "https://schoolfinderapp-918f6.firebaseio.com",
+    "project_id": "schoolfinderapp-918f6",
+    "storage_bucket": "schoolfinderapp-918f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300719957667:android:54586c3ce355db57708116",
+        "android_client_info": {
+          "package_name": "com.example.schoolfinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300719957667-nvt2k6vhqtmdm6mfgvntt34652nslr7r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.schoolfinder",
+            "certificate_hash": "2d8e05406f20fd5d55176e72b50f964efff9771a"
+          }
+        },
+        {
+          "client_id": "300719957667-8q2rbgestbj3gbgh7036p1g5pc3s2lqf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0DZgVQj9cH0mTZ8qCMPqYoRIqQdWA6S0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300719957667-8q2rbgestbj3gbgh7036p1g5pc3s2lqf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

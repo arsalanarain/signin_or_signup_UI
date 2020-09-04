@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logo"
+
+        android:textSize="50dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="60dp"
+        android:textStyle="bold">
+    </TextView>
+    <TextView
+        android:id="@+id/e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:textSize="30dp"
+
+        android:text="Welcome"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/w"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/e"
+        android:text="Log Into Continue...."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp">
+    </TextView>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/w"
+        >
+        <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/w"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:hint="  Phone Number"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+      android:layout_below="@id/phonenumber"
+        >
+
+
+
+
+
+    <EditText
+        android:id="@+id/passwrd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phonenumber"
+        android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+        android:hint="  Password"
+        android:singleLine="true"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        >
+
+    </EditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <CheckBox
+        android:id="@+id/chkbox"
+        android:layout_below="@id/pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+
+        android:text="Rememmber Me"
+        >
+    </CheckBox>
+    <TextView
+        android:id="@+id/forget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password?"
+        android:layout_toRightOf="@id/chkbox"
+        android:layout_below="@id/pass"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+
+
+
+        >
+
+
+
+    </TextView>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/forget"
+        android:text="LogIn"
+        android:background="@drawable/login"
+        android:layout_marginTop="15dp"
+        android:drawableRight="@drawable/ic_trending_flat_black_24dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        >
+    </Button>
+
+    <TextView
+        android:id="@+id/social"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="40dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="------------------------       Social Login        ------------------------"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/fblogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/social"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/fblogin"
+        android:textColor="@android:color/white"
+        android:text="Continue With Facebook"
+        >
+    </Button>
+    <Button
+        android:id="@+id/gmaillogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/fblogin"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/googlelogin"
+        android:textColor="@android:color/white"
+        android:text="Continue With Google++"
+        >
+    </Button>
+    <TextView
+        android:id="@+id/newaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gmaillogin"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="220dp"
+        android:layout_marginLeft="40dp"
+        android:text="Dont Have an Account?"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+    <TextView
+        android:id="@+id/newoneaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gmaillogin"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="190dp"
+        android:text="Create One?"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        >
+    </TextView>
+
+
+</RelativeLayout>
+    </ScrollView>
